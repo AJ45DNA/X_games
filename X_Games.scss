@@ -1,0 +1,98 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+
+// @font-face {
+//     font-family: 'neon';
+//     font-style: normal;
+//     font-weight: normal;
+//     src: url('Neon/Library\ 3\ am.otf');
+//     }
+
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Geometria'), url('geometria/Geometria.woff') format('woff');
+    }
+
+body {
+    background-color: #0D0D0D;
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    position: absolute;
+    background-image: url(pexels-lukas-hartmann-1055613.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Geometria';
+    align-items: center;
+}
+
+h1 {
+    color: #fff5d8;
+    font-size: 65px;
+    text-shadow: 
+    .1vw 0vw .25vw #fff5d8, .2vw 0vw .25vw #ffd5d8, .4vw 0vw .25vw #ffd5d8,
+    
+    .1vw 0vw 0vw #f2af57, .2vw 0vw 0vw #f2b457, .4vw 0vw 0vw #f2a257,
+    .1vw 0vw .1vw #f2a257, .2vw 0vw .1vw #f2a257, .4vw 0vw .1vw #f2aa57,
+    .1vw 0vw 2vw #f29d57, .2vw 0vw 2vw #f2af57, .4vw 0vw 2vw #f2aa57,
+    
+    .1vw 0vw 1vw #e57f0b,.2vw 0vw 1vw #e5740b,.4vw 0vw 5vw #e57f0b,
+    .1vw 0vw 5vw #e5870b,.2vw 0vw 20vw #e5740b,.4vw 0vw 10vw #e5a00b,
+    .1vw 0vw 10vw #e5870b,.2vw 0vw 30vw #e57f0b,.4vw 0vw 10vw #e5a00b,;
+}
+
+.text-container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation:{
+        name: animate;
+        duration: 1.5s;
+        iteration-count: infinite;
+        direction: alternate;
+    }
+}
+
+// ANIMATION
+
+@keyframes animate {
+    0% {
+        filter: drop-shadow(0px 0px 1px #fff5d800)
+        drop-shadow(0px 0px 3px #fff5d800)
+        drop-shadow(0px 0px 5px #f2af5700)
+        drop-shadow(0px 0px 8px #e5870b00)
+        drop-shadow(0px 0px 10px #e5740b00);
+    }
+
+    // 50% {
+    //     filter: drop-shadow(0px 0px 1px #fff5d80c)
+    //     drop-shadow(0px 0px 2px #fff5d807)
+    //     drop-shadow(0px 0px 4px #f2af5711)
+    //     drop-shadow(0px 0px 6px #e5870b00)
+    //     drop-shadow(0px 0px 8px #e5740b00);
+    // }
+
+    100% {
+        filter: drop-shadow(0px 0px 1px #fff5d81c)
+        drop-shadow(0px 0px 2px #fff5d80e)
+        drop-shadow(0px 0px 4px #f2af571c)
+        drop-shadow(0px 0px 6px #e5870b00)
+        drop-shadow(0px 0px 8px #e5740b00);
+    }
+}

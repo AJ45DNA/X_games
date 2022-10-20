@@ -1,0 +1,102 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Geometria"), url("geometria/Geometria.woff") format("woff");
+}
+
+body {
+  background-color: #0D0D0D;
+  height: 1vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#box {
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  height: auto;
+  position: absolute;
+  background-image: url(pexels-lukas-hartmann-1055613.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Geometria';
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h1 {
+  color: #fff5d8;
+  font-size: 65px;
+  text-shadow: 0.1vw 0vw 0.25vw #fff5d8, 0.2vw 0vw 0.25vw #ffd5d8, 0.4vw 0vw 0.25vw #ffd5d8, 0.1vw 0vw 0vw #f2af57, 0.2vw 0vw 0vw #f2b457, 0.4vw 0vw 0vw #f2a257, 0.1vw 0vw 0.1vw #f2a257, 0.2vw 0vw 0.1vw #f2a257, 0.4vw 0vw 0.1vw #f2aa57, 0.1vw 0vw 2vw #f29d57, 0.2vw 0vw 2vw #f2af57, 0.4vw 0vw 2vw #f2aa57, 0.1vw 0vw 1vw #e57f0b, 0.2vw 0vw 1vw #e5740b, 0.4vw 0vw 5vw #e57f0b, 0.1vw 0vw 5vw #e5870b, 0.2vw 0vw 20vw #e5740b, 0.4vw 0vw 10vw #e5a00b, 0.1vw 0vw 10vw #e5870b, 0.2vw 0vw 30vw #e57f0b, 0.4vw 0vw 10vw #e5a00b;
+}
+
+.text-container {
+  width: auto;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation-name: animate;
+          animation-name: animate;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    -webkit-filter: drop-shadow(0px 0px 1px #fff5d800) drop-shadow(0px 0px 3px #fff5d800) drop-shadow(0px 0px 5px #f2af5700) drop-shadow(0px 0px 8px #e5870b00) drop-shadow(0px 0px 10px #e5740b00);
+            filter: drop-shadow(0px 0px 1px #fff5d800) drop-shadow(0px 0px 3px #fff5d800) drop-shadow(0px 0px 5px #f2af5700) drop-shadow(0px 0px 8px #e5870b00) drop-shadow(0px 0px 10px #e5740b00);
+  }
+  100% {
+    -webkit-filter: drop-shadow(0px 0px 1px #fff5d81c) drop-shadow(0px 0px 2px #fff5d80e) drop-shadow(0px 0px 4px #f2af571c) drop-shadow(0px 0px 6px #e5870b00) drop-shadow(0px 0px 8px #e5740b00);
+            filter: drop-shadow(0px 0px 1px #fff5d81c) drop-shadow(0px 0px 2px #fff5d80e) drop-shadow(0px 0px 4px #f2af571c) drop-shadow(0px 0px 6px #e5870b00) drop-shadow(0px 0px 8px #e5740b00);
+  }
+}
+
+@keyframes animate {
+  0% {
+    -webkit-filter: drop-shadow(0px 0px 1px #fff5d800) drop-shadow(0px 0px 3px #fff5d800) drop-shadow(0px 0px 5px #f2af5700) drop-shadow(0px 0px 8px #e5870b00) drop-shadow(0px 0px 10px #e5740b00);
+            filter: drop-shadow(0px 0px 1px #fff5d800) drop-shadow(0px 0px 3px #fff5d800) drop-shadow(0px 0px 5px #f2af5700) drop-shadow(0px 0px 8px #e5870b00) drop-shadow(0px 0px 10px #e5740b00);
+  }
+  100% {
+    -webkit-filter: drop-shadow(0px 0px 1px #fff5d81c) drop-shadow(0px 0px 2px #fff5d80e) drop-shadow(0px 0px 4px #f2af571c) drop-shadow(0px 0px 6px #e5870b00) drop-shadow(0px 0px 8px #e5740b00);
+            filter: drop-shadow(0px 0px 1px #fff5d81c) drop-shadow(0px 0px 2px #fff5d80e) drop-shadow(0px 0px 4px #f2af571c) drop-shadow(0px 0px 6px #e5870b00) drop-shadow(0px 0px 8px #e5740b00);
+  }
+}
+/*# sourceMappingURL=X_Games.css.map */
